@@ -339,7 +339,7 @@
 }
 /* Footer */
  .footer{
-     background-color: #1D293F;
+     background-color: #1d293f7c;
 }
  .footer__title{
      font-weight: 300;
@@ -348,6 +348,12 @@
 }
  .footer__title, .footer__newsletter{
      color: #fff;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #001A49;
 }
  .nav--footer{
      padding-bottom: 20px;
