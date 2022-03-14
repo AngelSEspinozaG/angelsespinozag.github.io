@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: radial-gradient(circle at 50% 48%,#79bfff, #8ff7ff, #00a3ff)
+    background: radial-gradient(circle at 50% 50%,rgba(109, 185, 255, 1), rgba(255, 238, 238, 1), rgba(93, 169, 255, 1))
 }
 .form{
     background-color: #8ff7ff;

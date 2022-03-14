@@ -5,7 +5,7 @@
 }
  body{
      font-family: 'Poppins', sans-serif;
-     background: radial-gradient(circle at 50% 48%,#79bfff, #8ff7ff, #00a3ff) 
+     background: conic-gradient(from 180deg at 50% 50%, rgba(109, 185, 255, 1), rgba(255, 238, 238, 1), rgba(93, 169, 255, 1))
 }
  .nav_title{
      width: 266px;
@@ -37,7 +37,7 @@
      height: 100%;
      background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../img/pc.jpg');
      background-size: cover;
-     clip-path: polygon(100% 0, 100% 78%, 89% 83%, 71% 86%, 46% 89%, 29% 92%, 10% 93%, 0 97%, 0 0);
+     clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 49% 96%, 20% 90%, 0% 70%, 0% 35%, 0 0);
      z-index: -1;
 }
 /* Nav */
@@ -137,10 +137,10 @@
 }
 /* Knowledge */
  .knowledge {
-     background-color: #8FF7FF;
-     background-image: radial-gradient(#00A3FF 0.8px, transparent 0.8px), radial-gradient(#00A3FF 0.8px, #8FF7FF 0.8px);
-     background-size: 32px 32px;
-     background-position: 0 0,16px 16px;
+     background-color: #defaff;
+     background-image:  radial-gradient(#3b95a6 0.75px, transparent 0.75px), radial-gradient(#3b95a6 0.75px, #defaff 0.75px);
+     background-size: 30px 30px;
+     background-position: 0 0,15px 15px;
      overflow: hidden;
 }
  .knowledge__container{
@@ -229,10 +229,10 @@
 }
 /* Testimony */
  .testimony{
-     background-color: #8FF7FF;
-     background-image: radial-gradient(#00A3FF 0.8px, transparent 0.8px), radial-gradient(#00A3FF 0.8px, #8FF7FF 0.8px);
-     background-size: 32px 32px;
-     background-position: 0 0,16px 16px;
+     background-color: #defaff;
+     background-image:  radial-gradient(#3b95a6 0.75px, transparent 0.75px), radial-gradient(#3b95a6 0.75px, #defaff 0.75px);
+     background-size: 30px 30px;
+     background-position: 0 0,15px 15px;
      overflow: hidden;
 }
  .testimony__container{
@@ -303,7 +303,7 @@
  .questions__title{
      text-align: left;
      display: flex;
-     font-size: 20px;
+     font-size: 30px;
      padding: 30px 0 30px;
      cursor: pointer;
      color: var(--color-title);
@@ -325,9 +325,16 @@
      transform: rotate(180deg);
 }
  .questions__show{
-     text-align: left;
+     text-align: center;
      height: 0;
      transition: height .3s;
+}
+.questions-img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0.3rem 0.8rem rgba(212, 153, 153, 0.849);
+    
 }
  .questions__img{
      display: block;
@@ -339,7 +346,7 @@
 }
 /* Footer */
  .footer{
-     background-color: #1d293f7c;
+    background: conic-gradient(from 180deg at 50% 50%, #6400ff, rgba(227, 214, 251, 1), #4f00f8)
 }
  .footer__title{
      font-weight: 300;
