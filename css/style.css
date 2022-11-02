@@ -5,7 +5,7 @@
 }
  body{
      font-family: 'Poppins', sans-serif;
-     background: conic-gradient(from 180deg at 50% 50%, rgba(109, 185, 255, 1), rgba(255, 238, 238, 1), rgba(93, 169, 255, 1))
+     /*background: conic-gradient(from 180deg at 50% 50%, rgba(109, 185, 255, 1), rgba(255, 238, 238, 1), rgba(93, 169, 255, 1))*/
 }
  .nav_title{
      width: 266px;
@@ -37,7 +37,7 @@
      height: 100%;
      background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../img/pc.jpg');
      background-size: cover;
-     clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 49% 96%, 20% 90%, 0% 70%, 0% 35%, 0 0);
+     clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 82%, 80% 90%, 50% 95%, 20% 90%, 0 82%, 0% 35%, 0 0);
      z-index: -1;
 }
 /* Nav */
@@ -137,8 +137,8 @@
 }
 /* Knowledge */
  .knowledge {
-     background-color: #defaff;
-     background-image:  radial-gradient(#3b95a6 0.75px, transparent 0.75px), radial-gradient(#3b95a6 0.75px, #defaff 0.75px);
+     /*background-color: #defaff;
+     background-image:  radial-gradient(#3b95a6 0.75px, transparent 0.75px), radial-gradient(#3b95a6 0.75px, #defaff 0.75px);*/
      background-size: 30px 30px;
      background-position: 0 0,15px 15px;
      overflow: hidden;
@@ -229,8 +229,8 @@
 }
 /* Testimony */
  .testimony{
-     background-color: #defaff;
-     background-image:  radial-gradient(#3b95a6 0.75px, transparent 0.75px), radial-gradient(#3b95a6 0.75px, #defaff 0.75px);
+     /*background-color: #defaff;
+     background-image:  radial-gradient(#3b95a6 0.75px, transparent 0.75px), radial-gradient(#3b95a6 0.75px, #defaff 0.75px);*/
      background-size: 30px 30px;
      background-position: 0 0,15px 15px;
      overflow: hidden;
@@ -346,7 +346,7 @@
 }
 /* Footer */
  .footer{
-    background: conic-gradient(from 180deg at 50% 50%, #6400ff, rgba(227, 214, 251, 1), #4f00f8)
+    background-color: #b1b1b19f;
 }
  .footer__title{
      font-weight: 300;
