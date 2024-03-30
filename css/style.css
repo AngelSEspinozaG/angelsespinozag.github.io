@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 600; 700&display=swap');
-     width: 266px;
-     height: 105px;
-}
- .container{
-     width: 90%;
-     max-width: 1200px;
-     margin: 0 auto;
 
 :root {
     --padding-container: 100px 0;
